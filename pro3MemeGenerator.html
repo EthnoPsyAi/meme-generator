@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="pro3MemeGenerator.css" />
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+
+    <!-- Make meme form, just put stuffs in it -->
+    <form id="memeForm">
+      <input type="text" id="topText" placeholder="Top Text" required />
+      <input type="text" id="bottomText" placeholder="Bottom Text" required />
+      <input type="url" id="imageUrl" placeholder="Image URL" required />
+      <button type="submit">Generate Meme</button>
+    </form>
+
+    <!-- Meme will appears here -->
+    <div class="meme-container" id="memeContainer"></div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="pro3MemeGenerator.js" defer></script>
+  </body>
+</html>
